@@ -1,16 +1,17 @@
 {
   "name": "@documint/n8n-nodes-documint",
   "version": "0.1.0",
-  "description": "",
+  "description": "Documint node for n8n",
   "keywords": [
     "n8n-community-node-package",
     "documint"
   ],
+  "private":false,
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Documint",
+    "email": "hello@documint.me"
   },
   "repository": {
     "type": "git",
@@ -34,12 +35,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/Documint/Documint.node.js"
     ]
   },
   "devDependencies": {
