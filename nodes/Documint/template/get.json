@@ -1,0 +1,50 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldSchema": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "background": {
+                        "type": "null"
+                    },
+                    "color": {
+                        "type": "null"
+                    },
+                    "image_url": {
+                        "type": "null"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "text": {
+                        "type": "null"
+                    }
+                }
+            }
+        },
+        "createdAt": {
+            "type": "string"
+        },
+        "options":{
+            "height": {
+                "type": "integer"
+            },
+            "width": {
+                "type": "integer"
+            },
+            "format":{
+                "type":"string"
+            }
+
+        },
+        "name": {
+            "type": "string"
+        },
+        "updatedAt": {
+            "type": "string"
+        }
+    },
+    "version": 1
+}

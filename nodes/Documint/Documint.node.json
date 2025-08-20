@@ -1,0 +1,25 @@
+{
+	"node": "n8n-node-base.documint",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Sales", "Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.documint.me/integrations/n8n/credentials/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.documint.me/integrations/n8n/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate PDFs with Documint and n8n",
+				"icon": "📄",
+				"url": "https://documint.me/blog/automate-pdfs-with-documint/"
+			}
+		]
+	}
+}
